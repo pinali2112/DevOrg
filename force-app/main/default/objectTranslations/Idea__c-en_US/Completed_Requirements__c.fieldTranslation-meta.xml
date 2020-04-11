@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How many of our requirements are complete? --></help>
+    <label><!-- Completed Requirements --></label>
+    <name>Completed_Requirements__c</name>
+</CustomFieldTranslation>

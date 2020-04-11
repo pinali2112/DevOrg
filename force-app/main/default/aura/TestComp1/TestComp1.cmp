@@ -1,0 +1,27 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,lightning:actionOverride" access="global" >
+	<div aria-hidden="false" id="newClientSectionId" role="dialog" class="slds-modal slds-modal--large slds-fade-in-open" style="display:none;">
+   <div class="slds-modal__container">
+     <div class="slds-modal__header">
+      
+      <h2 id="header43" class="slds-text-heading--medium">Add New Record.1</h2>
+      <button class="slds-button slds-button--neutral" onclick="{!c.hideModal}">X</button>  
+     </div>
+    <div class="slds-modal__content slds-p-around--medium">
+      <div>
+         <p>  Modal body  </p>
+           <lightning:recordEditForm aura:id="recordEditForm" 
+                           objectApiName="Expense__c">
+                <lightning:messages />
+                <lightning:inputField fieldName="Name" />
+                <lightning:input type="date" label="DOB" name="dateofbirth" value="Date__c" />
+    		</lightning:recordEditForm>
+      </div>
+    </div>
+      <div class="slds-x-small-buttons--horizontal">
+        <p> footer</p>
+      </div>
+  </div>
+ </div>
+       <button class="slds-button slds-button--neutral" onclick="{!c.showModal}">Open Modal</button>
+
+</aura:component>

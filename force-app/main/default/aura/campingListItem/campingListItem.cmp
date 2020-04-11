@@ -1,0 +1,16 @@
+<aura:component >
+    <aura:attribute name="item" type="Camping_Item__c"/>
+    
+    <p>Name:
+        <lightning:inputField value="{!v.item.Name}"/>
+    </p>
+    <p>Quantity:
+        <lightning:inputField value="{!v.item.Quantity__c}"/>
+    </p>
+    <p>Price:
+        <lightning:inputField value="{!v.item.Price__c}"/>
+    </p>
+    <p>Packed?:
+        <lightning:inputField value="{!v.item.Packed__c}"/>
+    </p>
+</aura:component>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Contact_Method__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Which method you want to choose for CSR to contact you</inlineHelpText>
+    <label>Preferred Contact Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>true</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Home Phone</fullName>
+                <default>false</default>
+                <label>Home Phone</label>
+            </value>
+            <value>
+                <fullName>Work Phone</fullName>
+                <default>false</default>
+                <label>Work Phone</label>
+            </value>
+            <value>
+                <fullName>Work Email</fullName>
+                <default>false</default>
+                <label>Work Email</label>
+            </value>
+            <value>
+                <fullName>Personal Email</fullName>
+                <default>false</default>
+                <label>Personal Email</label>
+            </value>
+            <value>
+                <fullName>No Preference</fullName>
+                <default>false</default>
+                <label>No Preference</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

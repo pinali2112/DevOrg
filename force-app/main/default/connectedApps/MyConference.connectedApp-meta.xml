@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>pinali2112@gmail.om</contactEmail>
+    <contactPhone>0111111111</contactPhone>
+    <label>MyConference</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:3000/oauthcallback.html</callbackUrl>
+        <consumerKey>3MVG9ZL0ppGP5UrDj7tdjI92hV1Zd18C5bM_uKbZlO7cEBoMwRp.yI1FVh5RFpdWZhHQPgwmWqW1rSdl2x0e0</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

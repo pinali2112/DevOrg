@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Idea</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ideas</value>
+    </caseValues>
+    <layouts>
+        <layout>Idea Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Idea Info --></label>
+            <section>Idea Info</section>
+        </sections>
+        <sections>
+            <label><!-- Popularity --></label>
+            <section>Popularity</section>
+        </sections>
+        <sections>
+            <label><!-- Stats --></label>
+            <section>Stats</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Like --></label>
+        <name>Like</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Marketing --></label>
+        <name>Marketing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales --></label>
+        <name>Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Services --></label>
+        <name>Services</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

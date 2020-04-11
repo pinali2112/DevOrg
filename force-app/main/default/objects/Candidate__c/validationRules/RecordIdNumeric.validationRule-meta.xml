@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecordIdNumeric</fullName>
+    <active>true</active>
+    <description>Record ID should ne numberic</description>
+    <errorConditionFormula>ISNULL(Id )</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Can not be Blank</errorMessage>
+</ValidationRule>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>UserDetails {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>UserDetails</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>UserDetails</name>
+        <label>UserDetails</label>
+        <locationX>202</locationX>
+        <locationY>68</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>UserNm</name>
+            <dataType>String</dataType>
+            <fieldText>UserNm</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>UserDetails</startElementReference>
+    <status>Active</status>
+</Flow>
